@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background-image: url('kimi1.JPEG');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 300px; 
+}
+
+#tabela {
+    border-collapse: collapse;
+    text-align: center;
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    
+}
+
+tr,th,td {
+    border: 4px solid rgb(191, 9, 21);
+    padding: 15px 15px;
+    font-size: 17px;
+    color: white;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+a {
+    color:rgb(191, 9, 21);
+}
+
+a:hover {
+    color: white ;
+    text-decoration: none;
+}
+
+a:focus {
+    color: rgb(116, 114, 114) ;
+    text-decoration: none;
+}
+
+#select{
+    padding: 10px 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    width:20%; 
+    margin-left:40%; 
+    margin-right:40%;
+    text-align: center;
+}
+
+#footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: white;
+
+}

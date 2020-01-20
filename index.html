@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F1</title>
+
+    <link rel="stylesheet" href="stil.css">
+
+    <script src="Script_F1.js"></script>
+    <script src="zastave.js"></script>
+    
+    
+</head>
+<body onload="popuniSezone()">
+
+    <header id="header">
+
+    </header>
+
+    <br>
+
+        <h1>Prikaz F1 tabele vozača</h1>
+
+        <br><br>
+
+        <select id="select" onchange="prikaziPodatke(this.value)">
+                <option value="">Izaberite sezonu</option>
+                
+            </select>
+
+            <br><br><br>
+
+    <table id="tabela">
+        <thead>
+            <tr>
+                <th onclick="sortiraj('nacija')" class="cursor">Država &#x21D5;</th>
+                <th onclick="sortiraj('ime')" class="cursor">Ime &#x21D5;</th>
+                <th onclick="sortiraj('prezime')" class="cursor">Prezime &#x21D5;</th>
+                <th onclick="sortiraj('bodovi')" class="cursor">Bodovi &#x21D5;</th>
+                <th onclick="sortiraj('konstruktor')" class="cursor">Konstruktor &#x21D5;</th>
+                <th onclick="sortiraj('link')" class="cursor">Biografija &#x21D5;</th>
+            </tr>
+        </thead>
+
+        <tbody id="rezultati">
+
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+      
+<footer id="footer">
+    &copy; Dijana Pejić
+</footer>
+
+
+</body>
+</html>

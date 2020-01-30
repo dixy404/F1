@@ -35,7 +35,7 @@ function prikaziPodatke(sezona) {
         }
     }
 
-    request.open("GET", "http://ergast.com/api/f1/" + sezona + "/driverStandings.json");
+    request.open("GET", "https://ergast.com/api/f1/" + sezona + "/driverStandings.json");
    
     request.send();
 }
